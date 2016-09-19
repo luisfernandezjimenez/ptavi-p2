@@ -8,7 +8,7 @@ class Calculadora():
         return op1 + op2
 
     def resta (delf, op1, op2):
-         return op1 - op2
+        return op1 - op2
 
 if __name__ == "__main__":
     calculadora = Calculadora()
