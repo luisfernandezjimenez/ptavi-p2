@@ -3,14 +3,9 @@
 
 import sys
 
-class Calculadora():
-    def suma (self, op1, op2):
-        return op1 + op2
+import calcoo
 
-    def resta (delf, op1, op2):
-        return op1 - op2
-
-class CalculadoraHija(Calculadora): 
+class CalculadoraHija(calcoo.Calculadora): 
     def multiplicar (self, op1, op2):
         return op1 * op2
     
