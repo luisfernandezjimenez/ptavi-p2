@@ -38,6 +38,7 @@ if __name__ == "__main__":
     elif sys.argv[2] == "division":
         result = div(operando1, operando2)
     else:
-        sys.exit('Operación sólo puede ser suma, resta, multiplicacion o division.')
+        sys.exit('Operación sólo puede ser suma, resta, multiplicacion o '
+                 'division.')
 
     print(result)
