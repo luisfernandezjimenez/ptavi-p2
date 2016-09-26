@@ -9,9 +9,9 @@ if __name__ == "__main__":
     calculadora = calcoohija.CalculadoraHija()
 
     fich = open(sys.argv[1], 'r')
-
     lineas = fich.readlines()
-
+    fich.close()
+	
     for linea in lineas:
         elementos = linea.split(',')
 
