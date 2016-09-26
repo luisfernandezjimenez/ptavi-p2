@@ -3,10 +3,8 @@
 
 import sys
 import calcoohija
-import csv 
+import csv
 
-
-        
 if __name__ == "__main__":
     calculadora = calcoohija.CalculadoraHija()
 
@@ -24,7 +22,8 @@ if __name__ == "__main__":
                 elif operacion == "resta":
                     resultado = calculadora.resta(resultado, int(operandos))
                 elif operacion == "multiplica":
-                    resultado = calculadora.multiplicar(resultado, int(operandos))
+                    resultado = calculadora.multiplicar(resultado,
+                                                        int(operandos))
                 elif operacion == "divide":
                     resultado = calculadora.dividir(resultado, int(operandos))
                 else:
